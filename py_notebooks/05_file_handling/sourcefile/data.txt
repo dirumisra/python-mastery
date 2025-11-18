@@ -1,0 +1,4 @@
+HEADER
+HEADER
+This is some sample text in the file.
+It can be multiple lines.

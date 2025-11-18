@@ -1,0 +1,55 @@
+# --- CORE DATA & VISUALIZATION ---
+pandas
+matplotlib
+seaborn
+
+# --- API & CONFIG ---
+fastapi
+uvicorn
+requests
+python-dotenv
+
+# --- DEV / CODE QUALITY ---
+black
+ruff
+mypy
+pre-commit
+
+# --- TESTING ---
+pytest
+pytest-cov
+
+# --- NOTEBOOKS ---
+ipykernel
+notebook
+openpyxl
+
+
+
+# ========== OPENAI & LANGCHAIN STACK ==========
+openai                    # OpenAI SDK (GPT models, embeddings)
+langchain                 # Core LangChain framework for LLM chains and tools
+langchain-community        # Extended tools & integrations for LangChain
+tiktoken                  # Tokenizer for counting LLM tokens efficiently
+
+# ========== VECTOR DATABASES & RAG ==========
+chromadb                  # Local vector database for embeddings
+faiss-cpu                 # Facebook AI Similarity Search for fast vector retrieval
+sentence-transformers      # For generating text embeddings locally (alternative to OpenAI embeddings)
+
+# ========== APP DEVELOPMENT & DEPLOYMENT ==========
+streamlit                 # Web app framework for building AI dashboards & chatbots
+fastapi                   # Lightweight backend API framework for AI apps
+uvicorn                   # ASGI server for running FastAPI apps
+
+# ========== UTILITIES & PERFORMANCE ==========
+tabulate                  # Beautiful table formatting for console outputs
+numpy                     # Numeric operations, vector math
+pandas                    # Data handling for CSVs, JSONs, or analytics
+tqdm                      # Progress bars for loops or downloads
+rich                      # Colorful logging and better CLI output
+
+# ========== OPTIONAL BUT RECOMMENDED ==========
+typeguard                 # Runtime type checking (for debugging data flows)
+pytest                    # Testing framework
+notebook                  # For running Jupyter notebooks in VS Code

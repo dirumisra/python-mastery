@@ -1,0 +1,1 @@
+This is some valid UTF-8 text.
